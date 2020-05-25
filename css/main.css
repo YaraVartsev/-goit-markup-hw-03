@@ -1,0 +1,196 @@
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* цвет основного текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* акцент #2196F3 */
+
+/* белый #FFFFFF */
+
+/* вторичный цвет фона */
+
+:root {
+  --primary-text-color: color #212121;
+  --title-text-color: color #757575;
+  --accent-color: color #2196f3;
+}
+
+/*logo*/
+
+.logo {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+
+.Web {
+  color: #2196f3;
+}
+
+/* Site-nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+/* Contacts */
+
+.contacts-nav .contacts {
+  color: #757575;
+}
+
+.contacts-nav .contacts:hover,
+.contacts-nav .contacts:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+
+.hero-title {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Section */
+
+.section-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Examples */
+
+.applications-list .title {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Team */
+
+.team-list .title {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.address {
+  color: #ffffff;
+}
+
+.contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.paragraph {
+  color: #757575;
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.Studio {
+  color: #2196f3;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+/* классы для портфолио */
+
+/* filter */
+
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.filter:hover, 
+.filter:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* name */
+
+.name {
+  color: #212121;
