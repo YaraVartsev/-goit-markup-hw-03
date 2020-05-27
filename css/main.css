@@ -33,7 +33,7 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1170px;
 
   padding-left: 15px;
   padding-right: 15px;
@@ -72,6 +72,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 200px;
 }
 
 /* Site-nav */
@@ -136,10 +137,6 @@ body {
 }
 
 /* Hero */
-
-.hero {
-  margin-top: 200px;
-}
 
 .hero-title {
   margin-top: 0;
@@ -218,7 +215,7 @@ body {
 }
 
 .feature-list .item {
-  width: 270p;
+  width: 270px;
 }
 
 .feature-list .title {
